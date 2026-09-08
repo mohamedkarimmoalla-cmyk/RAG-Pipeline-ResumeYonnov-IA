@@ -1,0 +1,28 @@
+
+
+# Ignore notebook
+Pipeline_IA_Extraction_Resume_PDF.ipynb
+
+# Python virtual environment
+.venv/
+
+# Backend environment
+backend/.env
+
+# Backend generated files
+backend/outputs/
+backend/uploads/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

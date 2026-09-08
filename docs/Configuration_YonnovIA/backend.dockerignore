@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+outputs/
+uploads/
+tests/
+test_judge.py
+test_judge_correct.py
