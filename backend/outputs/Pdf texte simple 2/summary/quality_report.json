@@ -1,0 +1,35 @@
+{
+    "score": 67,
+    "is_valid": true,
+    "word_count": 68,
+    "expected_sections": 12,
+    "filled_sections": 4,
+    "missing_sections": [],
+    "unfilled_sections": [
+        "main topic",
+        "problem statement",
+        "objectives",
+        "methodology",
+        "scientific contributions",
+        "limitations",
+        "future work",
+        "executive summary maximum 5 lines"
+    ],
+    "keyword_coverage": {
+        "total": 0,
+        "present": 0,
+        "ratio": 1.0,
+        "missing": []
+    },
+    "grounding_ratio": 0.545,
+    "checks": {
+        "not_empty": true,
+        "length_ok": true,
+        "structure_ratio": 0.333,
+        "keywords_ok": true,
+        "grounding_ok": true
+    },
+    "alerts": [
+        "Required section(s) present but empty: main topic, problem statement, objectives, methodology, scientific contributions, limitations, future work, executive summary maximum 5 lines."
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "provided_keywords": [],
+    "global_keywords": [
+        {
+            "keyword": "élèves",
+            "score": 0.89,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "absentéisme",
+            "score": 0.7382,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "scolaire",
+            "score": 0.7363,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "école",
+            "score": 0.6191,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "enseignants",
+            "score": 0.5293,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "contenu idées développées",
+            "score": 0.4296,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "développées engagent étudiantes",
+            "score": 0.4296,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "engagent étudiantes étudiants",
+            "score": 0.4296,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "idées développées engagent",
+            "score": 0.4296,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "classe",
+            "score": 0.3896,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "cadre cours synthèse",
+            "score": 0.3611,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "cours synthèse intégration",
+            "score": 0.3611,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "enseignante cadre cours",
+            "score": 0.3611,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "équipe enseignante cadre",
+            "score": 0.3611,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "évalué équipe enseignante",
+            "score": 0.3611,
+            "method": "tfidf"
+        }
+    ],
+    "keywords_by_section": {
+        "introduction": [
+            {
+                "keyword": "élèves",
+                "score": 1.0,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "aliénation",
+                "score": 0.6975,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "absences",
+                "score": 0.5763,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "école",
+                "score": 0.5733,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "absentéisme scolaire enjeu",
+                "score": 0.4114,
+                "method": "tfidf"
+            }
+        ],
+        "résultats suggèrent que certains aspects du vécu": [
+            {
+                "keyword": "élèves",
+                "score": 1.0,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "absentéisme",
+                "score": 0.8603,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "scolaire",
+                "score": 0.8145,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "école",
+                "score": 0.6566,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "classe",
+                "score": 0.587,
+                "method": "tfidf"
+            }
+        ],
+        "perspectives": [
+            {
+                "keyword": "beaucoup",
+                "score": 1.0,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "futur",
+                "score": 0.9787,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "approche projet",
+                "score": 0.8432,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "encourager parcours scolaire",
+                "score": 0.8374,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "montrer encourager parcours",
+                "score": 0.8374,
+                "method": "tfidf"
+            }
+        ],
+        "conclusion": [
+            {
+                "keyword": "élèves",
+                "score": 1.0,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "contenu idées développées",
+                "score": 0.8559,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "développées engagent étudiantes",
+                "score": 0.8559,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "engagent étudiantes étudiants",
+                "score": 0.8559,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "idées développées engagent",
+                "score": 0.8559,
+                "method": "tfidf"
+            }
+        ]
+    },
+    "configuration": {
+        "global_keyword_limit": 15,
+        "keywords_per_section": 5,
+        "ngram_range": [
+            1,
+            3
+        ],
+        "generic_term_filtering": true
+    },
+    "status": "keywords_generated"
+}

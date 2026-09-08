@@ -1,0 +1,35 @@
+{
+    "score": 73,
+    "is_valid": true,
+    "word_count": 91,
+    "expected_sections": 12,
+    "filled_sections": 4,
+    "missing_sections": [],
+    "unfilled_sections": [
+        "sujet principal",
+        "problématique",
+        "objectifs",
+        "méthodologie",
+        "contributions scientifiques",
+        "limites",
+        "perspectives",
+        "résumé synthétique 5 lignes maximum"
+    ],
+    "keyword_coverage": {
+        "total": 15,
+        "present": 15,
+        "ratio": 1.0,
+        "missing": []
+    },
+    "grounding_ratio": 0.955,
+    "checks": {
+        "not_empty": true,
+        "length_ok": true,
+        "structure_ratio": 0.333,
+        "keywords_ok": true,
+        "grounding_ok": true
+    },
+    "alerts": [
+        "Section(s) obligatoire(s) présente(s) mais vide(s) : sujet principal, problématique, objectifs, méthodologie, contributions scientifiques, limites, perspectives, résumé synthétique 5 lignes maximum."
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "filename": "1007.3049v1.pdf",
+    "metadata": {
+        "title": "arXiv:1007.3049v1 [math.CO] 19 Jul 2010",
+        "authors": [
+            "Indecomposable tournaments",
+            "their indecomposable subtournaments on 5",
+            "7 vertices Houmem Belkhechine"
+        ],
+        "year": 2010,
+        "source": null,
+        "doi": null,
+        "page_count": 12,
+        "language": "en",
+        "extraction_sources": {
+            "title": "First relevant text line",
+            "authors": "Document header",
+            "year": "Text or PDF metadata",
+            "source": null,
+            "doi": null,
+            "page_count": "PDF"
+        },
+        "missing_required_fields": [
+            "source"
+        ],
+        "missing_optional_fields": [
+            "doi"
+        ],
+        "can_continue_summarization": true,
+        "status": "completed_with_missing_fields"
+    },
+    "summary": {
+        "metadata": {
+            "title": "arXiv:1007.3049v1 [math.CO] 19 Jul 2010",
+            "authors": [
+                "Indecomposable tournaments",
+                "their indecomposable subtournaments on 5",
+                "7 vertices Houmem Belkhechine"
+            ],
+            "year": 2010,
+            "source": null,
+            "doi": null,
+            "page_count": 12,
+            "language": "en",
+            "extraction_sources": {
+                "title": "First relevant text line",
+                "authors": "Document header",
+                "year": "Text or PDF metadata",
+                "source": null,
+                "doi": null,
+                "page_count": "PDF"
+            },
+            "missing_required_fields": [
+                "source"
+            ],
+            "missing_optional_fields": [
+                "doi"
+            ],
+            "can_continue_summarization": true,
+            "status": "completed_with_missing_fields"
+        },
+        "main_topic": "Not available",
+        "problem_statement": "Not available",
+        "objectives": "Not available",
+        "methodology": "Not available",
+        "main_results": "- Not available",
+        "scientific_contributions": "Not available",
+        "limitations": "Not available",
+        "future_work": "Not available",
+        "keywords": {
+            "provided_keywords": [
+                "tournament",
+                "indecomposable",
+                "critical",
+                "embedding."
+            ],
+            "global_keywords": [
+                {
+                    "keyword": "embedding.",
+                    "score": 0.925,
+                    "method": "provided_keywords"
+                },
+                {
+                    "keyword": "t2n",
+                    "score": 0.3977,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "isomorphism",
+                    "score": 0.374,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "defined",
+                    "score": 0.3739,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "given",
+                    "score": 0.3708,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "follows",
+                    "score": 0.2977,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "indecomposable subtournaments vertices",
+                    "score": 0.2916,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "proposition",
+                    "score": 0.2739,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "there indecomposable",
+                    "score": 0.2606,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "trivial",
+                    "score": 0.2541,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "subtournaments vertices isomorphic",
+                    "score": 0.251,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "embeds",
+                    "score": 0.2509,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "critical tournaments",
+                    "score": 0.2278,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "indecomposable tournament cardinality",
+                    "score": 0.2242,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "decomposable interval",
+                    "score": 0.2102,
+                    "method": "tfidf"
+                }
+            ],
+            "keywords_by_section": {
+                "abstract": [
+                    {
+                        "keyword": "tournaments",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "intervals",
+                        "score": 0.687,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "vertices",
+                        "score": 0.6314,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "given tournament",
+                        "score": 0.5742,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "indecomposable tournament",
+                        "score": 0.4781,
+                        "method": "tfidf"
+                    }
+                ],
+                "results and to present the characterization of the critical tournaments due to": [
+                    {
+                        "keyword": "interval",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "there",
+                        "score": 0.7676,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "t2n",
+                        "score": 0.6243,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "indecomposable tournament",
+                        "score": 0.5335,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "indecomposable subtournaments",
+                        "score": 0.4941,
+                        "method": "tfidf"
+                    }
+                ]
+            },
+            "configuration": {
+                "global_keyword_limit": 15,
+                "keywords_per_section": 5,
+                "ngram_range": [
+                    1,
+                    3
+                ],
+                "generic_term_filtering": true
+            },
+            "status": "keywords_generated"
+        },
+        "executive_summary": "Not available",
+        "key_takeaways": "- Not available"
+    },
+    "summary_markdown": "# Scientific Summary\n\n## Metadata\n\n**Title:**\narXiv:1007.3049v1 [math.CO] 19 Jul 2010\n\n**Authors:**\nIndecomposable tournaments, their indecomposable subtournaments on 5, 7 vertices Houmem Belkhechine\n\n**Year:**\n2010\n\n**Source:**\nNot available\n\n**DOI:**\nNot available\n\n**Total Number of Pages:**\n12\n\n\n---\n\n## Main Topic\n\nNot available\n\n---\n\n## Problem Statement\n\nNot available\n\n---\n\n## Objectives\n\nNot available\n\n---\n\n## Methodology\n\nNot available\n\n---\n\n## Main Results\n\n- Not available\n\n---\n\n## Scientific Contributions\n\nNot available\n\n---\n\n## Limitations\n\nNot available\n\n---\n\n## Future Work\n\nNot available\n\n---\n\n## Keywords\n\n- embedding.\n- t2n\n- isomorphism\n- defined\n- given\n- follows\n- indecomposable subtournaments vertices\n- proposition\n- there indecomposable\n- trivial\n- subtournaments vertices isomorphic\n- embeds\n- critical tournaments\n- indecomposable tournament cardinality\n- decomposable interval\n\n---\n\n## Executive Summary (maximum 5 lines)\n\nNot available\n\n---\n\n## Key Takeaways\n\n- Not available\n",
+    "generated_at": "2026-08-20T11:35:42.586139+00:00",
+    "model": "qwen2.5:3b",
+    "summarization_mode": "llm"
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Ce travail a été évalué par l'équipe enseignante dans le cadre du cours de Synthèse et intégration. Le contenu et les idées développées n’engagent que les étudiantes",
+    "authors": [
+        "Nathan Béchard"
+    ],
+    "year": 2023,
+    "source": null,
+    "doi": "10.7202/011773ar",
+    "page_count": 6,
+    "language": "fr",
+    "extraction_sources": {
+        "title": "First relevant text line",
+        "authors": "PDF metadata",
+        "year": "Text or PDF metadata",
+        "source": null,
+        "doi": "Regex",
+        "page_count": "PDF"
+    },
+    "missing_required_fields": [
+        "source"
+    ],
+    "missing_optional_fields": [],
+    "can_continue_summarization": true,
+    "status": "completed_with_missing_fields"
+}

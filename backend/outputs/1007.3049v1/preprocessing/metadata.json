@@ -1,0 +1,29 @@
+{
+    "title": "arXiv:1007.3049v1 [math.CO] 19 Jul 2010",
+    "authors": [
+        "Indecomposable tournaments",
+        "their indecomposable subtournaments on 5",
+        "7 vertices Houmem Belkhechine"
+    ],
+    "year": 2010,
+    "source": null,
+    "doi": null,
+    "page_count": 12,
+    "language": "en",
+    "extraction_sources": {
+        "title": "First relevant text line",
+        "authors": "Document header",
+        "year": "Text or PDF metadata",
+        "source": null,
+        "doi": null,
+        "page_count": "PDF"
+    },
+    "missing_required_fields": [
+        "source"
+    ],
+    "missing_optional_fields": [
+        "doi"
+    ],
+    "can_continue_summarization": true,
+    "status": "completed_with_missing_fields"
+}

@@ -1,0 +1,9 @@
+{
+    "Filename": "pdf_export_final_test3.pdf",
+    "Input PDF": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\uploads\\e73a4acf-6543-4e8b-b3b8-e17c1e38ce60\\pdf_export_final_test3.pdf",
+    "Output Markdown": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\pdf_export_final_test3\\extraction\\markdown.md",
+    "Pages": 1,
+    "Markdown Size (characters)": 93,
+    "Extraction Status": "Success",
+    "Extraction Method": "pymupdf4llm"
+}

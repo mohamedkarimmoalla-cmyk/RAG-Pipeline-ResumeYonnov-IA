@@ -1,0 +1,9 @@
+[
+    {
+        "chunk_id": 1,
+        "section_name": "Full Text",
+        "priority": "unknown",
+        "content": "Sample PDF for Team07-E26 pipeline tests This is a single-page PDF generated for E2E testing.",
+        "prompt": "You are an expert scientific article summarizer.\n\nYour objective is to generate accurate, concise, and scientifically faithful summaries\nof scientific paper sections.\n\nGuidelines:\n- Preserve scientific meaning and technical terminology.\n- Preserve important numerical results whenever available.\n- Do not invent or infer information.\n- Avoid redundancy.\n- Write in a formal academic style.\n- Produce summaries that can later be merged into a complete document summary.\n- Focus only on the provided section.\n\nArticle Information\n\nTitle:\nSample PDF for Team07-E26 pipeline tests\n\nLanguage:\nen\n\nKeywords:\n\nSection Information\n\nSection Name:\nFull Text\n\nPriority:\nunknown\n\nSection Content:\nSample PDF for Team07-E26 pipeline tests This is a single-page PDF generated for E2E testing."
+    }
+]

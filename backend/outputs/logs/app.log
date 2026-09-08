@@ -1,0 +1,319 @@
+2026-08-18 12:45:59,102 - INFO - Starting pipeline for sample.pdf
+2026-08-18 12:45:59,105 - ERROR - Pipeline failed at validation for sample.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 70, in run
+    raise ValueError("PDF file is not readable")
+ValueError: PDF file is not readable
+2026-08-18 12:45:59,106 - INFO - Timing | Total Pipeline | 0.004 seconds
+2026-08-18 12:53:11,005 - INFO - Starting pipeline for sample.pdf
+2026-08-18 12:53:11,008 - ERROR - Pipeline failed at validation for sample.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 70, in run
+    raise ValueError("PDF file is not readable")
+ValueError: PDF file is not readable
+2026-08-18 12:53:11,008 - INFO - Timing | Total Pipeline | 0.003 seconds
+2026-08-18 13:01:31,476 - INFO - Starting pipeline for sample.pdf
+2026-08-18 13:01:31,484 - INFO - Timing | Extraction | 0.006 seconds
+2026-08-18 13:01:31,485 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-18 13:01:31,487 - INFO - Timing | Cleaning | 0.002 seconds
+2026-08-18 13:01:31,492 - INFO - Timing | Metadata | 0.005 seconds
+2026-08-18 13:01:31,496 - INFO - Timing | Sections | 0.003 seconds
+2026-08-18 13:01:31,500 - INFO - Timing | Keywords | 0.004 seconds
+2026-08-18 13:01:31,502 - INFO - Timing | Chunking | 0.001 seconds
+2026-08-18 13:01:31,504 - INFO - Timing | Prompting | 0.001 seconds
+2026-08-18 13:01:31,506 - INFO - Timing | Inference | 0.002 seconds
+2026-08-18 13:01:31,512 - INFO - Timing | Merge | 0.005 seconds
+2026-08-18 13:01:31,512 - INFO - Timing | Total Pipeline | 0.036 seconds
+2026-08-18 13:03:40,702 - INFO - Starting pipeline for sample.pdf
+2026-08-18 13:03:40,709 - INFO - Timing | Extraction | 0.004 seconds
+2026-08-18 13:03:40,709 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-18 13:03:40,712 - INFO - Timing | Cleaning | 0.001 seconds
+2026-08-18 13:03:40,717 - INFO - Timing | Metadata | 0.005 seconds
+2026-08-18 13:03:40,720 - INFO - Timing | Sections | 0.003 seconds
+2026-08-18 13:03:40,724 - INFO - Timing | Keywords | 0.003 seconds
+2026-08-18 13:03:40,725 - INFO - Timing | Chunking | 0.001 seconds
+2026-08-18 13:03:40,727 - INFO - Timing | Prompting | 0.001 seconds
+2026-08-18 13:03:40,729 - INFO - Timing | Inference | 0.002 seconds
+2026-08-18 13:03:40,733 - INFO - Timing | Merge | 0.004 seconds
+2026-08-18 13:03:40,734 - INFO - Timing | Total Pipeline | 0.031 seconds
+2026-08-18 13:25:44,090 - INFO - Starting pipeline for sample.pdf
+2026-08-18 13:25:44,097 - INFO - Timing | Extraction | 0.004 seconds
+2026-08-18 13:25:44,098 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-18 13:25:44,099 - INFO - Timing | Cleaning | 0.001 seconds
+2026-08-18 13:25:44,101 - INFO - Timing | Metadata | 0.002 seconds
+2026-08-18 13:25:44,103 - INFO - Timing | Sections | 0.002 seconds
+2026-08-18 13:25:44,106 - INFO - Timing | Keywords | 0.002 seconds
+2026-08-18 13:25:44,108 - INFO - Timing | Chunking | 0.001 seconds
+2026-08-18 13:25:44,109 - INFO - Timing | Prompting | 0.001 seconds
+2026-08-18 13:25:44,112 - INFO - Timing | Inference | 0.002 seconds
+2026-08-18 13:25:44,116 - INFO - Timing | Merge | 0.003 seconds
+2026-08-18 13:25:44,116 - INFO - Timing | Total Pipeline | 0.025 seconds
+2026-08-20 13:17:26,870 - INFO - Starting pipeline for 1007.3049v1.pdf
+2026-08-20 13:17:27,047 - INFO - Timing | Extraction | 0.110 seconds
+2026-08-20 13:21:17,445 - INFO - Timing | Quality Evaluation | 230.396 seconds
+2026-08-20 13:21:17,481 - INFO - Timing | Cleaning | 0.029 seconds
+2026-08-20 13:21:17,522 - INFO - Timing | Metadata | 0.041 seconds
+2026-08-20 13:21:17,637 - INFO - Timing | Sections | 0.114 seconds
+2026-08-20 13:21:17,836 - INFO - Timing | Keywords | 0.200 seconds
+2026-08-20 13:21:17,840 - INFO - Timing | Chunking | 0.003 seconds
+2026-08-20 13:21:17,843 - INFO - Timing | Prompting | 0.003 seconds
+2026-08-20 13:21:17,861 - ERROR - Pipeline failed at inference for 1007.3049v1.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 27, in generate_partial_summaries
+    summary = engine.generate(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\inference\ollama_engine.py", line 47, in generate
+    response = ollama.chat(
+               ^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'qwen2.5:3b' not found (status code: 404)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 180, in run
+    partial_summaries = generate_partial_summaries(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 31, in generate_partial_summaries
+    print(f"❌ Error on chunk {request['chunk_id']}: {e}")
+  File "C:\Users\USER\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+2026-08-20 13:21:17,939 - INFO - Timing | Total Pipeline | 231.069 seconds
+2026-08-20 13:23:29,680 - INFO - Starting pipeline for 1007.3049v1.pdf
+2026-08-20 13:23:29,778 - INFO - Timing | Extraction | 0.094 seconds
+2026-08-20 13:23:29,779 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-20 13:23:29,794 - INFO - Timing | Cleaning | 0.015 seconds
+2026-08-20 13:23:29,809 - INFO - Timing | Metadata | 0.015 seconds
+2026-08-20 13:23:29,923 - INFO - Timing | Sections | 0.114 seconds
+2026-08-20 13:23:30,052 - INFO - Timing | Keywords | 0.127 seconds
+2026-08-20 13:23:30,055 - INFO - Timing | Chunking | 0.003 seconds
+2026-08-20 13:23:30,058 - INFO - Timing | Prompting | 0.004 seconds
+2026-08-20 13:23:32,127 - ERROR - Pipeline failed at inference for 1007.3049v1.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 27, in generate_partial_summaries
+    summary = engine.generate(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\inference\ollama_engine.py", line 47, in generate
+    response = ollama.chat(
+               ^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\.venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'qwen2.5:3b' not found (status code: 404)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 180, in run
+    partial_summaries = generate_partial_summaries(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 31, in generate_partial_summaries
+    print(f"❌ Error on chunk {request['chunk_id']}: {e}")
+  File "C:\Users\USER\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+2026-08-20 13:23:32,136 - INFO - Timing | Total Pipeline | 2.456 seconds
+2026-08-20 13:35:40,101 - INFO - Starting pipeline for 1007.3049v1.pdf
+2026-08-20 13:35:40,193 - INFO - Timing | Extraction | 0.083 seconds
+2026-08-20 13:35:40,193 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-20 13:35:40,206 - INFO - Timing | Cleaning | 0.012 seconds
+2026-08-20 13:35:40,218 - INFO - Timing | Metadata | 0.012 seconds
+2026-08-20 13:35:40,312 - INFO - Timing | Sections | 0.094 seconds
+2026-08-20 13:35:40,422 - INFO - Timing | Keywords | 0.110 seconds
+2026-08-20 13:35:40,426 - INFO - Timing | Chunking | 0.003 seconds
+2026-08-20 13:35:40,429 - INFO - Timing | Prompting | 0.003 seconds
+2026-08-20 13:35:42,562 - INFO - Timing | Inference | 2.132 seconds
+2026-08-20 13:35:42,569 - WARNING - LLM final merge failed: model 'qwen2.5:3b' not found (status code: 404). Using extractive fallback.
+2026-08-20 13:35:42,589 - INFO - Timing | Merge | 0.026 seconds
+2026-08-20 13:35:42,601 - INFO - Timing | Summary Quality | 0.013 seconds
+2026-08-20 13:35:42,601 - INFO - Timing | Total Pipeline | 2.500 seconds
+2026-08-21 11:43:41,627 - INFO - Starting pipeline for Pdf texte simple 1 .pdf
+2026-08-21 11:43:41,683 - ERROR - Pipeline failed at extraction for Pdf texte simple 1 .pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\Pdf texte simple 1 \\extraction'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 89, in run
+    self._write_text(markdown_path, extracted_markdown)
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 59, in _write_text
+    ensure_parent_directory(path).write_text(content, encoding="utf-8")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\utils\file_utils.py", line 9, in ensure_parent_directory
+    path.parent.mkdir(parents=True, exist_ok=True)
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1316, in mkdir
+    self.mkdir(mode, parents=False, exist_ok=exist_ok)
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\Pdf texte simple 1 \\extraction'
+2026-08-21 11:43:41,687 - INFO - Timing | Total Pipeline | 0.060 seconds
+2026-08-21 11:44:55,112 - INFO - Starting pipeline for Pdf texte simple 1 .pdf
+2026-08-21 11:44:55,254 - ERROR - Pipeline failed at extraction for Pdf texte simple 1 .pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\Pdf texte simple 1 \\extraction'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 89, in run
+    self._write_text(markdown_path, extracted_markdown)
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 59, in _write_text
+    ensure_parent_directory(path).write_text(content, encoding="utf-8")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\utils\file_utils.py", line 9, in ensure_parent_directory
+    path.parent.mkdir(parents=True, exist_ok=True)
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1316, in mkdir
+    self.mkdir(mode, parents=False, exist_ok=exist_ok)
+  File "C:\Users\USER\anaconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\Pdf texte simple 1 \\extraction'
+2026-08-21 11:44:55,256 - INFO - Timing | Total Pipeline | 0.144 seconds
+2026-08-21 11:49:00,847 - INFO - Starting pipeline for Pdf texte simple 2.pdf
+2026-08-21 11:49:00,873 - INFO - Timing | Extraction | 0.019 seconds
+2026-08-21 11:49:00,873 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-21 11:49:00,875 - INFO - Timing | Cleaning | 0.002 seconds
+2026-08-21 11:49:00,884 - INFO - Timing | Metadata | 0.008 seconds
+2026-08-21 11:49:00,898 - INFO - Timing | Sections | 0.015 seconds
+2026-08-21 11:49:00,903 - INFO - Timing | Keywords | 0.004 seconds
+2026-08-21 11:49:00,905 - INFO - Timing | Chunking | 0.002 seconds
+2026-08-21 11:49:00,908 - INFO - Timing | Prompting | 0.002 seconds
+2026-08-21 11:49:02,971 - INFO - Timing | Inference | 2.062 seconds
+2026-08-21 11:49:02,976 - WARNING - LLM final merge failed: model 'qwen2.5:3b' not found (status code: 404). Using extractive fallback.
+2026-08-21 11:49:02,982 - INFO - Timing | Merge | 0.011 seconds
+2026-08-21 11:49:02,986 - INFO - Timing | Summary Quality | 0.003 seconds
+2026-08-21 11:49:02,986 - INFO - Timing | Total Pipeline | 2.139 seconds
+2026-08-21 11:51:49,355 - INFO - Starting pipeline for Pdf texte simple 1.pdf
+2026-08-21 11:51:49,545 - INFO - Timing | Extraction | 0.147 seconds
+2026-08-21 11:51:49,545 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-21 11:51:49,603 - INFO - Timing | Cleaning | 0.058 seconds
+2026-08-21 11:51:49,615 - INFO - Timing | Metadata | 0.012 seconds
+2026-08-21 11:51:49,664 - INFO - Timing | Sections | 0.048 seconds
+2026-08-21 11:51:49,872 - INFO - Timing | Keywords | 0.208 seconds
+2026-08-21 11:51:49,877 - INFO - Timing | Chunking | 0.004 seconds
+2026-08-21 11:51:49,881 - INFO - Timing | Prompting | 0.004 seconds
+2026-08-21 11:51:51,963 - INFO - Timing | Inference | 2.082 seconds
+2026-08-21 11:51:51,970 - WARNING - LLM final merge failed: model 'qwen2.5:3b' not found (status code: 404). Using extractive fallback.
+2026-08-21 11:51:51,976 - INFO - Timing | Merge | 0.012 seconds
+2026-08-21 11:51:51,981 - INFO - Timing | Summary Quality | 0.006 seconds
+2026-08-21 11:51:51,981 - INFO - Timing | Total Pipeline | 2.627 seconds
+2026-08-21 11:56:47,426 - INFO - Starting pipeline for sample.pdf
+2026-08-21 11:56:47,455 - INFO - Timing | Extraction | 0.006 seconds
+2026-08-21 11:56:47,457 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-21 11:56:47,459 - INFO - Timing | Cleaning | 0.002 seconds
+2026-08-21 11:56:47,463 - INFO - Timing | Metadata | 0.005 seconds
+2026-08-21 11:56:47,467 - INFO - Timing | Sections | 0.003 seconds
+2026-08-21 11:56:47,469 - INFO - Timing | Keywords | 0.002 seconds
+2026-08-21 11:56:47,471 - INFO - Timing | Chunking | 0.002 seconds
+2026-08-21 11:56:47,473 - INFO - Timing | Prompting | 0.002 seconds
+2026-08-21 11:57:01,047 - INFO - Timing | Inference | 13.573 seconds
+2026-08-21 11:57:07,562 - INFO - Timing | Merge | 6.515 seconds
+2026-08-21 11:57:07,565 - INFO - Timing | Summary Quality | 0.003 seconds
+2026-08-21 11:57:07,566 - INFO - Timing | Total Pipeline | 20.138 seconds
+2026-08-24 13:40:35,505 - INFO - Starting pipeline for PDF_multicolonnes_1.pdf
+2026-08-24 13:40:35,786 - INFO - Timing | Extraction | 0.173 seconds
+2026-08-24 13:40:35,786 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-24 13:40:35,813 - INFO - Timing | Cleaning | 0.027 seconds
+2026-08-24 13:40:35,832 - INFO - Timing | Metadata | 0.019 seconds
+2026-08-24 13:40:35,971 - INFO - Timing | Sections | 0.139 seconds
+2026-08-24 13:40:36,400 - INFO - Timing | Keywords | 0.428 seconds
+2026-08-24 13:40:36,408 - INFO - Timing | Chunking | 0.006 seconds
+2026-08-24 13:40:36,417 - INFO - Timing | Prompting | 0.009 seconds
+2026-08-24 13:41:30,968 - INFO - Timing | Inference | 54.551 seconds
+2026-08-24 13:41:44,793 - INFO - Timing | Merge | 13.824 seconds
+2026-08-24 13:41:44,808 - INFO - Timing | Summary Quality | 0.015 seconds
+2026-08-24 13:41:44,809 - INFO - Timing | Total Pipeline | 69.305 seconds
+2026-08-24 13:42:59,954 - INFO - Starting pipeline for PDF_multicolonnes_1.pdf
+2026-08-24 13:43:00,062 - INFO - Timing | Extraction | 0.073 seconds
+2026-08-24 13:43:00,063 - INFO - Timing | Quality Evaluation | 0.000 seconds
+2026-08-24 13:43:00,076 - INFO - Timing | Cleaning | 0.012 seconds
+2026-08-24 13:43:00,084 - INFO - Timing | Metadata | 0.008 seconds
+2026-08-24 13:43:00,172 - INFO - Timing | Sections | 0.087 seconds
+2026-08-24 13:43:00,333 - INFO - Timing | Keywords | 0.161 seconds
+2026-08-24 13:43:00,337 - INFO - Timing | Chunking | 0.003 seconds
+2026-08-24 13:43:00,340 - INFO - Timing | Prompting | 0.004 seconds
+2026-08-24 13:43:37,179 - INFO - Timing | Inference | 36.828 seconds
+2026-08-24 13:43:53,291 - INFO - Timing | Merge | 16.108 seconds
+2026-08-24 13:43:53,299 - INFO - Timing | Summary Quality | 0.008 seconds
+2026-08-24 13:43:53,299 - INFO - Timing | Total Pipeline | 53.333 seconds
+2026-08-24 14:13:52,597 - INFO - Starting pipeline for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\ad471d0d-ec3c-4d88-8c8f-69daa4024724\pdf_export_final_test.pdf
+2026-08-24 14:13:52,646 - INFO - Timing | Extraction | 0.029 seconds
+2026-08-24 14:13:52,662 - INFO - Timing | Quality Evaluation | 0.016 seconds
+2026-08-24 14:13:52,665 - INFO - Timing | Cleaning | 0.003 seconds
+2026-08-24 14:13:52,675 - INFO - Timing | Metadata | 0.010 seconds
+2026-08-24 14:13:52,693 - INFO - Timing | Sections | 0.017 seconds
+2026-08-24 14:13:52,698 - INFO - Timing | Keywords | 0.004 seconds
+2026-08-24 14:13:52,700 - INFO - Timing | Chunking | 0.002 seconds
+2026-08-24 14:13:52,710 - INFO - Timing | Prompting | 0.003 seconds
+2026-08-24 14:14:04,300 - ERROR - Pipeline failed at inference for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\ad471d0d-ec3c-4d88-8c8f-69daa4024724\pdf_export_final_test.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 252, in run
+    partial_summaries = generate_partial_summaries(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 45, in generate_partial_summaries
+    print("\n✅ Summary generation completed.")
+  File "C:\Users\USER\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
+2026-08-24 14:16:02,029 - INFO - Starting pipeline for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\39ff225b-a14e-4843-bbc0-22e2f90355f0\pdf_export_final_test2.pdf
+2026-08-24 14:16:02,069 - INFO - Timing | Extraction | 0.021 seconds
+2026-08-24 14:16:02,085 - INFO - Timing | Quality Evaluation | 0.015 seconds
+2026-08-24 14:16:02,087 - INFO - Timing | Cleaning | 0.002 seconds
+2026-08-24 14:16:02,096 - INFO - Timing | Metadata | 0.008 seconds
+2026-08-24 14:16:02,112 - INFO - Timing | Sections | 0.016 seconds
+2026-08-24 14:16:02,119 - INFO - Timing | Keywords | 0.005 seconds
+2026-08-24 14:16:02,121 - INFO - Timing | Chunking | 0.002 seconds
+2026-08-24 14:16:02,131 - INFO - Timing | Prompting | 0.003 seconds
+2026-08-24 14:16:05,738 - ERROR - Pipeline failed at inference for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\39ff225b-a14e-4843-bbc0-22e2f90355f0\pdf_export_final_test2.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\pipeline\document_pipeline.py", line 251, in run
+    partial_summaries = generate_partial_summaries(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\GitHub\Team07-E26\backend\app\services\summarization\partial_summary.py", line 45, in generate_partial_summaries
+    print("\n✅ Summary generation completed.")
+  File "C:\Users\USER\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
+2026-08-24 14:17:15,110 - INFO - Starting pipeline for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\e73a4acf-6543-4e8b-b3b8-e17c1e38ce60\pdf_export_final_test3.pdf
+2026-08-24 14:17:15,160 - INFO - Timing | Extraction | 0.030 seconds
+2026-08-24 14:17:15,177 - INFO - Timing | Quality Evaluation | 0.017 seconds
+2026-08-24 14:17:15,180 - INFO - Timing | Cleaning | 0.003 seconds
+2026-08-24 14:17:15,191 - INFO - Timing | Metadata | 0.010 seconds
+2026-08-24 14:17:15,214 - INFO - Timing | Sections | 0.023 seconds
+2026-08-24 14:17:15,221 - INFO - Timing | Keywords | 0.006 seconds
+2026-08-24 14:17:15,223 - INFO - Timing | Chunking | 0.002 seconds
+2026-08-24 14:17:15,233 - INFO - Timing | Prompting | 0.002 seconds
+2026-08-24 14:17:18,809 - INFO - Timing | Inference | 3.575 seconds
+2026-08-24 14:17:26,316 - INFO - Timing | Merge | 7.505 seconds
+2026-08-24 14:27:57,884 - INFO - Starting pipeline for C:\Users\USER\Documents\GitHub\Team07-E26\backend\uploads\39e5721c-9e1d-4f13-b537-bca5dc7cfc41\PDF_multicolonnes_1.pdf
+2026-08-24 14:27:58,018 - INFO - Timing | Extraction | 0.080 seconds
+2026-08-24 14:27:58,027 - INFO - Timing | Quality Evaluation | 0.010 seconds
+2026-08-24 14:27:58,042 - INFO - Timing | Cleaning | 0.014 seconds
+2026-08-24 14:27:58,051 - INFO - Timing | Metadata | 0.009 seconds
+2026-08-24 14:27:58,145 - INFO - Timing | Sections | 0.094 seconds
+2026-08-24 14:27:58,354 - INFO - Timing | Keywords | 0.208 seconds
+2026-08-24 14:27:58,357 - INFO - Timing | Chunking | 0.003 seconds
+2026-08-24 14:27:58,393 - INFO - Timing | Prompting | 0.003 seconds
+2026-08-24 14:29:28,187 - INFO - Timing | Inference | 89.782 seconds
+2026-08-24 14:30:00,263 - INFO - Timing | Merge | 32.072 seconds

@@ -1,0 +1,9 @@
+{
+    "Filename": "PDF_multicolonnes_1.pdf",
+    "Input PDF": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\uploads\\39e5721c-9e1d-4f13-b537-bca5dc7cfc41\\PDF_multicolonnes_1.pdf",
+    "Output Markdown": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\PDF_multicolonnes_1\\extraction\\markdown.md",
+    "Pages": 6,
+    "Markdown Size (characters)": 22986,
+    "Extraction Status": "Success",
+    "Extraction Method": "pymupdf4llm"
+}

@@ -1,0 +1,192 @@
+{
+    "filename": "Pdf texte simple 1.pdf",
+    "metadata": {
+        "title": "Le concept de développement",
+        "authors": [
+            "bernard conte"
+        ],
+        "year": 1977,
+        "source": null,
+        "doi": null,
+        "page_count": 6,
+        "language": "fr",
+        "extraction_sources": {
+            "title": "First relevant text line",
+            "authors": "PDF metadata",
+            "year": "Text or PDF metadata",
+            "source": null,
+            "doi": null,
+            "page_count": "PDF"
+        },
+        "missing_required_fields": [
+            "source"
+        ],
+        "missing_optional_fields": [
+            "doi"
+        ],
+        "can_continue_summarization": true,
+        "status": "completed_with_missing_fields"
+    },
+    "summary": {
+        "metadata": {
+            "title": "Le concept de développement",
+            "authors": [
+                "bernard conte"
+            ],
+            "year": 1977,
+            "source": null,
+            "doi": null,
+            "page_count": 6,
+            "language": "fr",
+            "extraction_sources": {
+                "title": "First relevant text line",
+                "authors": "PDF metadata",
+                "year": "Text or PDF metadata",
+                "source": null,
+                "doi": null,
+                "page_count": "PDF"
+            },
+            "missing_required_fields": [
+                "source"
+            ],
+            "missing_optional_fields": [
+                "doi"
+            ],
+            "can_continue_summarization": true,
+            "status": "completed_with_missing_fields"
+        },
+        "main_topic": "Non disponible",
+        "problem_statement": "Non disponible",
+        "objectives": "Non disponible",
+        "methodology": "Non disponible",
+        "main_results": "- Non disponible",
+        "scientific_contributions": "Non disponible",
+        "limitations": "Non disponible",
+        "future_work": "Non disponible",
+        "keywords": {
+            "provided_keywords": [],
+            "global_keywords": [
+                {
+                    "keyword": "décroissance",
+                    "score": 0.2824,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "vie",
+                    "score": 0.2372,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "développement durable",
+                    "score": 0.2226,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "implique",
+                    "score": 0.2223,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "pas",
+                    "score": 0.2098,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "concept développement bernard",
+                    "score": 0.2077,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "développement bernard conte",
+                    "score": 0.2077,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "environnement",
+                    "score": 0.2057,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "pensée",
+                    "score": 0.1812,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "processus développement",
+                    "score": 0.1457,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "développement humain",
+                    "score": 0.1334,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "serge latouche",
+                    "score": 0.1317,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "croissance économique",
+                    "score": 0.1312,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "croissance développement",
+                    "score": 0.1306,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "dimension politique développement",
+                    "score": 0.1185,
+                    "method": "tfidf"
+                }
+            ],
+            "keywords_by_section": {
+                "contexte néolibéral où le respect des grands équilibres macroéconomiques reste la priorité": [
+                    {
+                        "keyword": "décroissance",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "croissance",
+                        "score": 0.8843,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "développement durable",
+                        "score": 0.8237,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "vie",
+                        "score": 0.6436,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "concept développement",
+                        "score": 0.5118,
+                        "method": "tfidf"
+                    }
+                ]
+            },
+            "configuration": {
+                "global_keyword_limit": 15,
+                "keywords_per_section": 5,
+                "ngram_range": [
+                    1,
+                    3
+                ],
+                "generic_term_filtering": true
+            },
+            "status": "keywords_generated"
+        },
+        "executive_summary": "Non disponible",
+        "key_takeaways": "- Non disponible"
+    },
+    "summary_markdown": "# Résumé scientifique\n\n## Métadonnées\n\n**Titre:**\nLe concept de développement\n\n**Auteurs:**\nbernard conte\n\n**Année:**\n1977\n\n**Source:**\nNon disponible\n\n**DOI:**\nNon disponible\n\n**Nombre de pages:**\n6\n\n\n---\n\n## Sujet principal\n\nNon disponible\n\n---\n\n## Problématique\n\nNon disponible\n\n---\n\n## Objectifs\n\nNon disponible\n\n---\n\n## Méthodologie\n\nNon disponible\n\n---\n\n## Résultats principaux\n\n- Non disponible\n\n---\n\n## Contributions scientifiques\n\nNon disponible\n\n---\n\n## Limites\n\nNon disponible\n\n---\n\n## Perspectives\n\nNon disponible\n\n---\n\n## Mots-clés\n\n- décroissance\n- vie\n- développement durable\n- implique\n- pas\n- concept développement bernard\n- développement bernard conte\n- environnement\n- pensée\n- processus développement\n- développement humain\n- serge latouche\n- croissance économique\n- croissance développement\n- dimension politique développement\n\n---\n\n## Résumé synthétique (5 lignes maximum)\n\nNon disponible\n\n---\n\n## Points à retenir\n\n- Non disponible\n",
+    "generated_at": "2026-08-21T09:51:51.973279+00:00",
+    "model": "qwen2.5:3b",
+    "summarization_mode": "llm"
+}

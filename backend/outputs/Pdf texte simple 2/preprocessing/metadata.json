@@ -1,0 +1,25 @@
+{
+    "title": "Sample PDF for Team07-E26 pipeline tests",
+    "authors": [
+        "anonymous"
+    ],
+    "year": 2026,
+    "source": "unspecified",
+    "doi": null,
+    "page_count": 1,
+    "language": "en",
+    "extraction_sources": {
+        "title": "First relevant text line",
+        "authors": "PDF metadata",
+        "year": "Text or PDF metadata",
+        "source": "Text or PDF metadata",
+        "doi": null,
+        "page_count": "PDF"
+    },
+    "missing_required_fields": [],
+    "missing_optional_fields": [
+        "doi"
+    ],
+    "can_continue_summarization": true,
+    "status": "completed_with_missing_optional_fields"
+}

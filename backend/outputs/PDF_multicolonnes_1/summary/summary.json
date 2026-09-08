@@ -1,0 +1,268 @@
+{
+    "filename": "PDF_multicolonnes_1.pdf",
+    "metadata": {
+        "title": "Ce travail a été évalué par l'équipe enseignante dans le cadre du cours de Synthèse et intégration. Le contenu et les idées développées n’engagent que les étudiantes",
+        "authors": [
+            "Nathan Béchard"
+        ],
+        "year": 2023,
+        "source": null,
+        "doi": "10.7202/011773ar",
+        "page_count": 6,
+        "language": "fr",
+        "extraction_sources": {
+            "title": "First relevant text line",
+            "authors": "PDF metadata",
+            "year": "Text or PDF metadata",
+            "source": null,
+            "doi": "Regex",
+            "page_count": "PDF"
+        },
+        "missing_required_fields": [
+            "source"
+        ],
+        "missing_optional_fields": [],
+        "can_continue_summarization": true,
+        "status": "completed_with_missing_fields"
+    },
+    "summary": {
+        "metadata": {
+            "title": "Ce travail a été évalué par l'équipe enseignante dans le cadre du cours de Synthèse et intégration. Le contenu et les idées développées n’engagent que les étudiantes",
+            "authors": [
+                "Nathan Béchard"
+            ],
+            "year": 2023,
+            "source": null,
+            "doi": "10.7202/011773ar",
+            "page_count": 6,
+            "language": "fr",
+            "extraction_sources": {
+                "title": "First relevant text line",
+                "authors": "PDF metadata",
+                "year": "Text or PDF metadata",
+                "source": null,
+                "doi": "Regex",
+                "page_count": "PDF"
+            },
+            "missing_required_fields": [
+                "source"
+            ],
+            "missing_optional_fields": [],
+            "can_continue_summarization": true,
+            "status": "completed_with_missing_fields"
+        },
+        "main_topic": "L'absentéisme scolaire dans les écoles du Québec et ses impacts sur le climat de classe, ainsi que des solutions pour réduire cet absentéisme.",
+        "problem_statement": "Quelles sont les causes profondes de l'absentéisme scolaire dans les écoles québécoises et comment ces absences affectent-elles le climat de classe et la motivation des élèves, ainsi que celle des enseignants ?",
+        "objectives": "1. Identifier les principales causes d'absentéisme scolaire dans les écoles du Québec.\n2. Évaluer l'impact de cet absentéisme sur le climat de classe et la motivation des élèves et des enseignants.\n3. Proposer des solutions pour réduire l'absentéisme scolaire.",
+        "methodology": "Les auteurs ont mené une recherche systématique d'études existantes, incluant des données sur les taux d'absentéisme dans le contexte québécois et mondial. Ils ont également interviewé des enseignants et parents pour comprendre leurs perceptions de l'absentéisme.",
+        "main_results": "1. L'absentéisme scolaire est un problème majeur, avec des taux particulièrement élevés dans le contexte québécois.\n2. Il affecte profondément le climat de classe et la motivation des élèves et enseignants.\n3. Les causes principales incluent la démotivation, les problèmes de santé mentale, l'influence familiale et sociale, ainsi que des attirances externes à l'école.",
+        "scientific_contributions": "1. Le travail met en lumière les conséquences graves de l'absentéisme scolaire sur le système éducatif.\n2. Il propose une approche globale pour comprendre et combattre cet absentéisme, incluant des stratégies pédagogiques et soutiens psychologiques adaptés.",
+        "limitations": "1. La recherche est basée principalement sur les données existantes et peut manquer de perspectives contextuelles spécifiques au Québec.\n2. Les solutions proposées nécessitent une collaboration étroite entre enseignants, parents et équipes de direction pour être efficaces.",
+        "future_work": "1. Il serait utile d'étudier plus en détail les effets à long terme de l'absentéisme scolaire sur la carrière des élèves.\n2. Les solutions proposées nécessitent une mise en œuvre et un suivi rigoureux pour évaluer leur efficacité.",
+        "keywords": {
+            "provided_keywords": [],
+            "global_keywords": [
+                {
+                    "keyword": "élèves",
+                    "score": 0.89,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "absentéisme",
+                    "score": 0.7382,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "scolaire",
+                    "score": 0.7363,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "école",
+                    "score": 0.6191,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "enseignants",
+                    "score": 0.5293,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "contenu idées développées",
+                    "score": 0.4296,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "développées engagent étudiantes",
+                    "score": 0.4296,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "engagent étudiantes étudiants",
+                    "score": 0.4296,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "idées développées engagent",
+                    "score": 0.4296,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "classe",
+                    "score": 0.3896,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "cadre cours synthèse",
+                    "score": 0.3611,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "cours synthèse intégration",
+                    "score": 0.3611,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "enseignante cadre cours",
+                    "score": 0.3611,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "équipe enseignante cadre",
+                    "score": 0.3611,
+                    "method": "tfidf"
+                },
+                {
+                    "keyword": "évalué équipe enseignante",
+                    "score": 0.3611,
+                    "method": "tfidf"
+                }
+            ],
+            "keywords_by_section": {
+                "introduction": [
+                    {
+                        "keyword": "élèves",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "aliénation",
+                        "score": 0.6975,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "absences",
+                        "score": 0.5763,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "école",
+                        "score": 0.5733,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "absentéisme scolaire enjeu",
+                        "score": 0.4114,
+                        "method": "tfidf"
+                    }
+                ],
+                "résultats suggèrent que certains aspects du vécu": [
+                    {
+                        "keyword": "élèves",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "absentéisme",
+                        "score": 0.8603,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "scolaire",
+                        "score": 0.8145,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "école",
+                        "score": 0.6566,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "classe",
+                        "score": 0.587,
+                        "method": "tfidf"
+                    }
+                ],
+                "perspectives": [
+                    {
+                        "keyword": "beaucoup",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "futur",
+                        "score": 0.9787,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "approche projet",
+                        "score": 0.8432,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "encourager parcours scolaire",
+                        "score": 0.8374,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "montrer encourager parcours",
+                        "score": 0.8374,
+                        "method": "tfidf"
+                    }
+                ],
+                "conclusion": [
+                    {
+                        "keyword": "élèves",
+                        "score": 1.0,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "contenu idées développées",
+                        "score": 0.8559,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "développées engagent étudiantes",
+                        "score": 0.8559,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "engagent étudiantes étudiants",
+                        "score": 0.8559,
+                        "method": "tfidf"
+                    },
+                    {
+                        "keyword": "idées développées engagent",
+                        "score": 0.8559,
+                        "method": "tfidf"
+                    }
+                ]
+            },
+            "configuration": {
+                "global_keyword_limit": 15,
+                "keywords_per_section": 5,
+                "ngram_range": [
+                    1,
+                    3
+                ],
+                "generic_term_filtering": true
+            },
+            "status": "keywords_generated"
+        },
+        "executive_summary": "",
+        "key_takeaways": ""
+    },
+    "summary_markdown": "Voici le résumé scientifique structuré en Markdown basé sur les informations fournies :\n\n# Résumé Scientifique\n\n## Métadonnées\n\n**Titre:**\nCe travail a été évalué par l'équipe enseignante dans le cadre du cours de Synthèse et intégration. Le contenu et les idées développées n’engagent que les étudiantes\n\n**Auteurs:**\nNathan Béchard\n\n**Année:**\n2023\n\n**Source:**\nNon disponible\n\n**DOI:**\n10.7202/011773ar\n\n**Nombre total de pages:**\n6\n\n---\n\n## Sujet principal\n\nL'absentéisme scolaire dans les écoles du Québec et ses impacts sur le climat de classe, ainsi que des solutions pour réduire cet absentéisme.\n\n---\n\n## Problématique\n\nQuelles sont les causes profondes de l'absentéisme scolaire dans les écoles québécoises et comment ces absences affectent-elles le climat de classe et la motivation des élèves, ainsi que celle des enseignants ?\n\n---\n\n## Objectifs\n\n1. Identifier les principales causes d'absentéisme scolaire dans les écoles du Québec.\n2. Évaluer l'impact de cet absentéisme sur le climat de classe et la motivation des élèves et des enseignants.\n3. Proposer des solutions pour réduire l'absentéisme scolaire.\n\n---\n\n## Méthodologie\n\nLes auteurs ont mené une recherche systématique d'études existantes, incluant des données sur les taux d'absentéisme dans le contexte québécois et mondial. Ils ont également interviewé des enseignants et parents pour comprendre leurs perceptions de l'absentéisme.\n\n---\n\n## Résultats principaux\n\n1. L'absentéisme scolaire est un problème majeur, avec des taux particulièrement élevés dans le contexte québécois.\n2. Il affecte profondément le climat de classe et la motivation des élèves et enseignants.\n3. Les causes principales incluent la démotivation, les problèmes de santé mentale, l'influence familiale et sociale, ainsi que des attirances externes à l'école.\n\n---\n\n## Contributions scientifiques\n\n1. Le travail met en lumière les conséquences graves de l'absentéisme scolaire sur le système éducatif.\n2. Il propose une approche globale pour comprendre et combattre cet absentéisme, incluant des stratégies pédagogiques et soutiens psychologiques adaptés.\n\n---\n\n## Limites\n\n1. La recherche est basée principalement sur les données existantes et peut manquer de perspectives contextuelles spécifiques au Québec.\n2. Les solutions proposées nécessitent une collaboration étroite entre enseignants, parents et équipes de direction pour être efficaces.\n\n---\n\n## Perspectives\n\n1. Il serait utile d'étudier plus en détail les effets à long terme de l'absentéisme scolaire sur la carrière des élèves.\n2. Les solutions proposées nécessitent une mise en œuvre et un suivi rigoureux pour évaluer leur efficacité.\n\n---\n\n## Mots-clés\n\n- élèves\n- absentéisme\n- scolaire\n- école\n- enseignants\n- contenu idées développées\n- développées engagent étudiantes\n- engagent étudiantes étudiants\n- idées développées engagent\n- classe\n- cadre cours synthèse\n- cours synthèse intégration\n- enseignante cadre cours\n- équipe enseignante cadre\n- évalué équipe enseignante\n\n---\n\n## Résumé Synthétique (5 lignes maximum)\n\nCe travail identifie les principales causes et impacts de l'absentéisme scolaire dans le Québec, mettant en avant des stratégies pour réduire cet absentéisme et améliorer la motivation des élèves et enseignants.\n\n---\n\n## Points à Retenir\n\n1. L'absentéisme est un problème majeur avec des conséquences graves sur le système éducatif.\n2. Il est essentiel de comprendre les causes profondes pour proposer des solutions efficaces.\n3. Une approche globale, incluant soutiens pédagogiques et psychologiques, est nécessaire pour contrer cet absentéisme.\n\n---\n\nCe résumé synthétique offre une vue d'ensemble concise du travail sans reproduire le contenu détaillé des sections spécifiques.",
+    "generated_at": "2026-08-24T12:30:00.240354+00:00",
+    "model": "qwen2.5:3b"
+}

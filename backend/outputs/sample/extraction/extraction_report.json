@@ -1,0 +1,8 @@
+{
+    "Filename": "sample.pdf",
+    "Input PDF": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\uploads\\sample.pdf",
+    "Output Markdown": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\sample\\extraction\\markdown.md",
+    "Pages": 1,
+    "Markdown Size (characters)": 93,
+    "Extraction Status": "Success"
+}

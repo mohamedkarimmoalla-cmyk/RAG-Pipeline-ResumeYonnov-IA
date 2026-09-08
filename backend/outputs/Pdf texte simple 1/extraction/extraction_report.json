@@ -1,0 +1,8 @@
+{
+    "Filename": "Pdf texte simple 1.pdf",
+    "Input PDF": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\uploads\\Pdf texte simple 1.pdf",
+    "Output Markdown": "C:\\Users\\USER\\Documents\\GitHub\\Team07-E26\\backend\\outputs\\Pdf texte simple 1\\extraction\\markdown.md",
+    "Pages": 6,
+    "Markdown Size (characters)": 16129,
+    "Extraction Status": "Success"
+}

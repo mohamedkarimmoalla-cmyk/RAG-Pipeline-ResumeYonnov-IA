@@ -1,0 +1,511 @@
+arXiv:1007.3049v1 [math.CO] 19 Jul 2010
+Indecomposable tournaments
+and their indecomposable subtournaments
+on 5 and 7 vertices
+Houmem Belkhechine
+Facult ́e des Sciences de Gab`es
+Cit ́e Riadh, Zirig
+6072 Gab`es
+Tunisie
+houmem@gmail.com
+Imed Boudabbous
+Institut Pr ́eparatoire aux ́Etudes d’Ing ́enieurs de Sfax
+Route Menzel Chaker Km 0.5
+3018 Sfax
+Tunisie
+imed.boudabbous@gmail.com
+Abstract
+Given a tournament T = (V, A), a subset X of V is an interval of
+T provided that for every a, b ∈X and x ∈V −X, (a, x) ∈A if and
+only if (b, x) ∈A. For example, ∅, {x}(x ∈V ) and V are intervals of
+T , called trivial intervals. A tournament, all the intervals of which
+are trivial, is indecomposable; otherwise, it is decomposable. A critical tournament is an indecomposable tournament T of cardinality
+≥5 such that for any vertex x of T , the tournament T −x is decomposable. The critical tournaments are of odd cardinality and for all
+n ≥2 there are exactly three critical tournaments on 2n + 1 vertices
+denoted by T2n+1, U2n+1 and W2n+1. The tournaments T5, U5 and
+W5 are the unique indecomposable tournaments on 5 vertices. We
+say that a tournament T embeds into a tournament T ′ when T is
+isomorphic to a subtournament of T ′. A diamond is a tournament
+on 4 vertices admitting only one interval of cardinality 3. We prove
+the following theorem: if a diamond and T5 embed into an indecomposable tournament T , then W5 and U5 embed into T . To conclude,
+we prove the following: given an indecomposable tournament T , with
+| V (T ) |≥7, T is critical if and only if the indecomposable subtournaments on 7 vertices of T are isomorphic to one and only one of the
+tournaments T7, U7 and W7.
+Key words: Tournament; Indecomposable; Critical; Embedding.
+Basic definitions
+A tournament T = (V (T ), A(T )) or (V, A) consists of a finite vertex set
+V with an arc set A of ordered pairs of distinct vertices satisfying: for
+x, y ∈V , with x̸ = y, (x, y) ∈A if and only if (y, x) /∈A. The cardinality
+of T is that of V (T ) denoted by |V (T )|. For two distinct vertices x and y
+of a tournament T , x −→y means that (x, y) ∈A(T ). For x ∈V (T ) and
+Y ⊂V (T ), x −→Y (rep. Y −→x) signifies that for every y ∈Y , x −→y
+(resp. y −→x). Given a vertex x of a tournament T = (V, A), N +
+T (x)
+denotes the set {y ∈V : x −→y}. The score of x (in T ), denoted by sT (x),
+is the cardinality of N +
+T (x). A tournament is regular if all its vertices share
+the same score. A transitive tournament or total order is a tournament T
+such that for x, y, z ∈V (T ), if x −→y and y −→z, then x −→z. For
+two distinct vertices x and y of a total order T , x < y means that x −→y.
+We write T = a0 < · · · < an to mean that T is the total order defined on
+The notions of isomorphism, of subtournament and of embedding are
+defined in the following manner. First, let T = (V, A) and T ′ = (V ′, A′)
+be two tournaments. A one-to-one correspondence f from V onto V ′ is
+an isomorphism from T onto T ′ provided that for x, y ∈V , (x, y) ∈A if
+and only if (f(x), f(y)) ∈A′. The tournaments T and T ′ are then said
+to be isomorphic, which is denoted by T ≃T ′. Moreover, an isomorphism
+from a tournament T onto itself is called an automorphism of T .
+The
+automorphisms of T form a subgroup of the permutation group of V (T ),
+called the automorphism group of T .
+Second, given a tournament T =
+(V, A), with each subset X of V is associated the subtournament T (X) =
+(X, A ∩(X × X)) of T induced by X.
+For x ∈V , the subtournament
+T (V −{x}) is denoted by T −x.
+For tournaments T and T ′, if T ′ is
+isomorphic to a subtournament of T , then we say that T ′ embeds into
+T . Otherwise, we say that T omits T ′. The dual of a tournament T =
+(V, A) is the tournament obtained from T by reversing all its arcs. This
+tournament is denoted by T ⋆= (V, A⋆), where A⋆= {(x, y) : (y, x) ∈A}.
+A tournament T is then said to be self-dual if T and T ⋆are isomorphic.
+The indecomposability plays an important role in this paper. Given a
+tournament T = (V, A), a subset I of V is an interval ([4], [7], [10]) (or a
+clan [3] or an homogeneous subset [5]) of T provided that for every x ∈V −I,
+x →I or I →x. This definition generalizes the notion of interval of a total
+order.
+Given a tournament T = (V, A), ∅, V and {x}, where x ∈V ,
+are clearly intervals of T , called trivial intervals. A tournament is then
+said to be indecomposable ([7], [10]) (or primitive [3]) if all of its intervals
+are trivial, and is said to be decomposable otherwise.
+For instance, the
+3-cycle C3 = ({0, 1, 2}, {(0, 1), (1, 2), (2, 0)}) is indecomposable whereas a
+total order of cardinality ≥3 is decomposable. Let us mention the following
+relationship between indecomposability and duality. The tournaments T
+and T ⋆have the same intervals and, thus, T is indecomposable if and only
+if T ⋆is indecomposable.
+The critical tournaments
+An indecomposable tournament T = (V, A) is said to be critical if |V |> 1
+and for all x ∈V , T −x is decomposable. In order to present our main
+results and to present the characterization of the critical tournaments due to
+J.H. Schmerl and W.T. Trotter [10], we introduce the tournaments T2n+1,
+U2n+1 and W2n+1 defined on 2n + 1 vertices, where n ≥2, as follows:
+• The tournament T2n+1 is the tournament defined on Z/(2n + 1)Z by
+Figure 1).
+• The tournament U2n+1 is obtained from T2n+1 by reversing the arcs of
+T2n+1({n + 1, . . ., 2n}). Therefore, U2n+1 is defined on {0, . . ., 2n} as
+i + n + 1 −→{0, . . ., i} (see Figure 2).
+• The tournament W2n+1 is defined on {0, . . . , 2n} in the following manner: W2n+1 −2n = 0 < · · · < 2n−1 and {1, 3, . . ., 2n−1} −→2n −→
+{0, 2, . . ., 2n −2} (see Figure 3).
+Theorem 1 ([10]) Up to isomorphism, the critical tournaments of cardinality ≥5 are the tournaments T2n+1, U2n+1 and W2n+1, where n ≥2.
+Notice that the critical tournaments are self-dual.
+i
+.
+.
+.
+i+1
+n −1
+n
+❍❍
+✲
+✲
+✲
+✲
+✲
+n+1
+i+n+1
+2n
+✲
+✲
+✟✟
+✲
+✲
+✄
+✄✄✎
+❅
+❅
+❅
+■
+◗
+◗
+◗
+◗
+❦
+✂
+✂✂✌
+❅
+❅
+❅
+■
+◗
+◗
+◗
+◗
+◗
+❦
+✑
+✑
+✑
+✑
+✑
+✰
+❅
+❅
+❅
+■
+Figure 1: T2n+1.
+The tournaments T5, U5 and W5 in an indecomposable tournament
+We study the indecomposable tournaments according to their indecomposable subtournaments on 5 vertices. A recent result on our topic is a
+characterization of the indecomposable tournaments omitting W5 obtained
+by B.J. Latka [8]. In order to recall this characterization, we introduce the
+Paley tournament P7 defined on Z/7Z by A(P7) = {(i, j) : j −i ∈{1, 2, 4}}.
+Notice that the tournaments obtained from P7 by deleting one vertex are
+isomorphic and denote P7 −6 by B6.
+Theorem 2 ([8]) Given a tournament T of cardinality ≥5, T is indecomposable and omits W5 if and only if T is isomorphic to an element of
+{B6, P7} ∪{T2n+1 : n ≥2} ∪{U2n+1 : n ≥2}.
+A diamond is a tournament on 4 vertices admitting only one interval of
+cardinality 3. Up to isomorphism, there are exactly two diamonds D4 and
+D⋆
+4, where D4 is the tournament defined on {0, 1, 2, 3} by D4({0, 1, 2}) = C3
+and 3 −→{0, 1, 2}.
+The following theorem is the main result. This theorem is presented in
+[1] without a detailed proof.
+Theorem 3 Given an indecomposable tournament T , if a diamond and T5
+embed into T , then U5 and W5 embed into T .
+C. Gnanvo and P. Ille [6] and G. Lopez and C. Rauzy [9] characterized the tournaments omitting diamonds. In the indecomposable case they
+obtained the following characterization.
+i
+.
+.
+.
+i+1
+n −1
+n
+❍❍
+✲
+✲
+✲
+✲
+✲
+n+1
+i+n+1
+2n
+✛
+✛
+❍
+❍
+✛
+❍
+❍
+❍
+❍
+✛
+✄
+✄✄✎
+❅
+❅
+❅
+■
+◗
+◗
+◗
+◗
+❦
+✂
+✂✂✌
+❅
+❅
+❅
+■
+◗
+◗
+◗
+◗
+◗
+❦
+✑
+✑
+✑
+✑
+✑
+✰
+❅
+❅
+❅
+■
+Figure 2: U2n+1.
+Proposition 1 ([6, 9]) Given an indecomposable tournament T of cardinality ≥5, T omits the diamonds D4 and D⋆
+4 if and only if T is isomorphic
+to T2n+1 for some n ≥2.
+Proof of Theorem 3
+Before proving Theorem 3, we introduce some notations and definitions.
+Definition 1 Given a tournament T = (V, A), with each subset X of V ,
+such that |X |≥3 and T (X) is indecomposable, are associated the following
+subsets of V −X.
+• Ext(X) = {x ∈V −X : T (X ∪{x}) is indecomposable}.
+• For every u ∈X, X(u) = {x ∈V −X :
+{u, x} is an interval of
+Lemma 1 ([3]) Let T = (V, A) be a tournament and let X be a subset of
+V such that |X |≥3 and T (X) is indecomposable.
+1. The family {X(u) : u ∈X} ∪{Ext(X), [X]} constitutes a partition of
+V −X.
+2. Given u ∈X, for all x ∈X(u) and for all y ∈V −(X ∪X(u)), if
+T (X ∪{x, y}) is decomposable, then {u, x} is an interval of T (X ∪
+2i
+.
+.
+.
+2n −2
+2n −1
+❍❍
+✲
+✲
+✲
+✲
+✲
+2n
+✟
+✟
+✟
+✟
+✟
+✟
+✟
+✟
+✟
+✟
+✙
+✸✂
+✂
+✂
+✂✌
+❏
+❏
+❏
+❥
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+✐
+Figure 3: W2n+1.
+3. For every x ∈[X] and for every y ∈V −(X ∪[X]), if T (X ∪{x, y})
+is decomposable, then X ∪{y} is an interval of T (X ∪{x, y}).
+4. Given x, y ∈Ext(X), with x̸ = y, if T (X ∪{x, y}) is decomposable,
+then {x, y} is an interval of T (X ∪{x, y}).
+The below result follows from Lemma 1.
+Proposition 2 ([3]) Let T = (V, A) be an indecomposable tournament.
+If X is a subset of V , such that | X |≥3, | V −X |≥2 and T (X) is
+indecomposable, then there are distinct elements x and y of V −X such
+that T (X ∪{x, y}) is indecomposable.
+Corollary 1 Let T = (V, A) be an indecomposable tournament such that
+| V | is even and | V |≥6. For each x ∈V , there is y ∈V −{x} such that
+T −y is indecomposable.
+PROOF. As T is indecomposable, there is X ⊂V such that x ∈X and
+T (X) ≃C3. Otherwise, N +
+T (x)) would be non trivial
+intervals of T . Since | V | is even, by applying several times Proposition 2
+from the indecomposable subtournament T (X), we get a vertex y ∈V −X
+such that T −y is indecomposable.
+□
+The 3-cycle C3 is indecomposable and embeds into any indecomposable tournament of cardinality ≥3 as observed in the preceding proof. It
+follows, by Proposition 2, that any indecomposable tournament T of cardinality ≥5, admits an indecomposable subtournament on 5 vertices. The
+indecomposable tournaments on 5 vertices are critical because the four tournaments on 4 vertices are decomposable. So let us mention the following
+facts.
+Remark 1
+• The indecomposable tournaments on 5 vertices are, up to isomorphism, the three critical tournaments T5, U5 and W5.
+• There is no indecomposable tournament of cardinality ≥5 omitting
+each of the tournaments T5, U5 and W5.
+The tournaments T2n+1 play an important role in the proof of Theorem 3. We recall some of their properties.
+Remark 2
+• The tournaments T2n+1 are regular: for all i ∈{0, . . . , 2n}, sT2n+1(i) =
+n;
+• For 0 ≤i ≤2n, the unique non trivial interval of T2n+1 −i is {i+n,
+i+n+1};
+• The automorphism group of T2n+1 is generated by the permutation
+σ : i 7→i + 1;
+• The permutation π : i 7→−i, is an isomorphism from T2n+1 onto its
+dual.
+Now we are ready to prove Theorem 3.
+PROOF OF THEOREM 3.
+Let T = (V, A) be an indecomposable
+tournament into which a diamond and T5 embed.
+Consider a minimal
+subset X of V such that T (X) is indecomposable and a diamond and T5
+embed into T (X). Now, let Y be a maximal subset of X such that T (Y ) ≃
+T2n+1 for some n ≥2. We establish that | X |= 6 by using the following
+observation. Consider a subset Z of X such that T (Z) ≃T2n+1 and assume
+that Ext(Z) ∩X̸ = ∅.
+Let x ∈Ext(Z) ∩X.
+We have T (Z ∪{x}) is
+indecomposable. Furthermore, as | Z ∪{x} | is even, a diamond embeds
+into T (Z ∪{x}) by Proposition 1. Since T5 embeds into T (Z ∪{x}) as well,
+it follows from the minimality of X that X = Z ∪{x}. As an immediate
+consequence, we have: if Z is a subset of X such that T (Z) ≃T2n+1 and
+| X −Z |≥2, then Ext(Z) ∩X = ∅. By Lemma 1, for every x ∈X −Z,
+either x ∈[Z] or there is u ∈Z such that x ∈Z(u).
+For a contradiction, suppose that Ext(Y ) ∩X = ∅. By Proposition 2,
+there are x̸ = y ∈X−Y such that T (Y ∪{x, y}) is indecomposable. Clearly,
+if {x, y} ⊆[Y ], then Y would be a non trivial interval of T (Y ∪{x, y}). For
+instance, assume that there is v ∈Y such that y ∈Y (v). By Lemma 1,
+either there is u ∈Y such that x ∈Y (u) or x ∈[Y ]. In each of both
+instances, we obtain a contradiction.
+First, suppose that there is u ∈Y such that x ∈Y (u). We have u̸ = v,
+otherwise {u, x, y} would be a non trivial interval of T (Y ∪{x, y}). By
+Remark 2, the automorphism group of T2n+1 is generated by σ : i 7→
+i + 1. Therefore, by interchanging x and y, we can denote the element of
+Y by 0, . . . , 2n in such a way that T (Y ) = T2n+1, u = 0 and 1 ≤v ≤n.
+Since T (Y ∪{x, y}) is indecomposable and 0 −→v, we get y −→x by
+Lemma 1. Consider Z = (Y −{0}) ∪{x}. We have T (Z) ≃T2n+1 and,
+by the preceding observation, either y ∈[Z] or there is w ∈Z such that
+y ∈Z(w). The first instance is not possible because {v −2, v −1} ∩Z̸ = ∅
+and {v −2, v −1} −→y −→x. So assume that there is w ∈Z such that
+y ∈Z(w). As y −→x −→v, w̸ = v. Moreover, if w = x, then {x, y} is an
+interval of T (Z ∪{y}). Since {v, y} is an interval of T ((Z ∪{y}) −{x}), we
+would obtain that {x, y, v} is an interval of T (Z ∪{y}) so that {x, v} would
+be an interval of T (Z). Therefore, w /∈{v, x} and hence {v, w} is an interval
+of T (Z)−x. As x ∈Y (0), it follows from Remark 2 that {v, w} = {n, n+1}
+so that v = n and n −→y. By considering the automorphism σn+1 of T (Y )
+defined by σn+1(i) = i + n + 1, we obtain that y ∈Y (0) and x ∈Y (n + 1).
+By considering T ⋆instead of T , we get y ∈Y (0) and x ∈Y (n) because
+the permutation π : i 7→−i is an isomorphism from T (Y ) onto T (Y )⋆by
+Remark 2. Lastly, by interchanging x and y in the foregoing, we obtain
+n −→x in T ⋆which means that initially x −→0 in T . It follows that the
+function Y ∪{x, y} −→{0, . . . , 2n + 2}, defined by x 7→2n + 2, y 7→n + 1,
+i 7→i for 0 ≤i ≤n and i 7→i+1 for n+1 ≤i ≤2n, realizes an isomorphism
+from T (Y ∪{x, y}) onto T2n+3. Consequently, T (Y ∪{x, y}) ≃T2n+3, with
+Y ∪{x, y} ⊆X, which contradicts the maximality of Y .
+Second, suppose that x ∈[Y ]. By interchanging T and T ⋆, assume that
+y −→x −→Y . Consider Z = (Y −{v}) ∪{y}. We have T (Z) ≃T2n+1
+and, by the previous observation, either x ∈[Z] or there is w ∈Z such that
+x ∈Z(w). The first instance is not possible because y −→x −→Z −{y}.
+Since y −→x −→Z −{y} and hence sT (Z∪{x})(x) = 2n, the second is not
+possible either. Indeed, given w ∈Z, if x ∈Z(w), then sT (Z∪{x})(x) ∈
+{n, n + 1} because sT (Z)(w) = n.
+It follows that Ext(Y ) ∩X̸ = ∅. Set T (Y ) = T2n+1. By the preceding
+observation, X = Y ∪{x}, where x ∈Ext(Y ) ∩X. As | X | is even, it
+follows from Corollary 1 that there is j ∈X −{x} such that T (X)−j is indecomposable. By considering the automorphism σ2n+1−j of T (Y ), we can
+assume that j = 0. For a contradiction, suppose that T (X) −0 ≃T2n+1.
+We would have s(T (X)−0)(x) = n. Since s(T (Y )−0)(i) = n for 1 ≤i ≤n
+and s(T (Y )−0)(i) = n −1 for n + 1 ≤i ≤2n, we would obtain that
+N +
+(T (X)−0)(x) = {1, . . . , n} so that {0, x} would be a non trivial interval
+of T (X). Consequently, T (X) −0 is not isomorphic to T2n+1. By Proposition 1, a diamond embeds into T (X) −0. It follows from the minimality
+of T (X) that T (X) −0 and hence T (Y ) −0 omit T5. As T5 embeds into
+T2m+1 −0 for m ≥3, we get n = 2.
+It remains to verify that U5 and W5 embed into T (X). Since x /∈[Y ],
+sT (X)(x) ∈{1, 2, 3, 4}. By interchanging T and T ⋆, assume that sT (X)(x) =
+1 or 2. First, assume that there is i ∈Z/5Z such that N +
+considering the automorphism j 7→j −i of T5, assume that i = 0. The
+function Z/5Z −→X −{3}, which fixes 0, 1, 2, 4 and which maps 3 to
+x, is an isomorphism from U5 onto T (X) −3. Furthermore, the function
+Z/5Z −→X −{2}, defined by 0 7→3, 1 7→4, 2 7→x, 3 7→0 and 4 7→1,
+is an isomorphism from W5 onto T (X) −2. Finally, assume that there is
+i ∈Z/5Z such that N +
+{i, i + 1}, then {i −1, x} would be an interval of T (X). So, by considering
+the automorphism k 7→k −i of T5, assume that N +
+T (X)(x) = {0, 2}. The
+function Z/5Z −→X −{0}, defined by 0 7→2, 1 7→3, 2 7→4, 3 7→x
+and 4 7→1, is an isomorphism from U5 onto T (X) −0. Furthermore, the
+function Z/5Z −→X −{2}, defined by 0 7→3, 1 7→4, 2 7→x, 3 7→0 and
+4 7→1, is an isomorphism from W5 onto T (X) −2.
+□
+A new characterization of the critical tournaments
+In this section we discuss some other questions concerning the indecomposable subtournaments on 5 and 7 vertices of an indecomposable tournament.
+In particular, we obtain a new characterization of the critical tournaments.
+In that order, we recall the following two results concerning the critical
+tournaments.
+Lemma 2 ([10]) The indecomposable subtournaments of T2n+1 on at least
+5 vertices, where n ≥2, are isomorphic to T2m+1, where 2 ≤m ≤n. The
+same holds for the indecomposable subtournamants of U2n+1 and of W2n+1.
+Lemma 3 ([2]) Given an indecomposable tournament T of cardinality ≥
+5, T is critical if and only if T omits any indecomposable tournament on
+six vertices.
+Let T be an indecomposable tournament of cardinality ≥5. We denote
+by I5(T ) the set of the elements of {T5, U5, W5} embedding in T . By Remark 1, I5(T )̸ = ∅. By Theorem 3, I5(T )̸ = {T5, U5} and I5(T )̸ = {T5, W5}.
+We characterize the indecomposable tournaments T such that I5(T ) = {T5}
+(resp. I5(T ) = {U5}). The following remark completes this discussion.
+Remark 3 For J = {W5}, {U5, W5} or {T5, U5, W5} and for n ≥6, there
+exists an indecomposable tournament T of cardinality n such that I5(T ) =
+J.
+For n ≥5, the tournaments En+1, Fn+1 and Gn+1 defined below on {0, . . .,
+n} are indecomposable and satisfy I5(En+1) = {T5, U5, W5}, I5(Fn+1) =
+{W5} and I5(Gn+1) = {U5, W5}.
+• En+1({0, . . ., 4}) = T5 and, for all 5 ≤k ≤n, N +
+Gn+1(n) = {0}.
+The following is an easy consequence of Theorem 2 and of Lemma 2.
+Corollary 2 The next two assertions are satisfied by any indecomposable
+tournament T of cardinality ≥5.
+1. T is isomorphic to T2n+1 for some n ≥2 if and only if the indecomposable subtournaments of T on 5 vertices are isomorphic to T5.
+2. T is isomorphic to B6, P7 or to U2n+1 for some n ≥2 if and only if
+the indecomposable subtournaments of T on 5 vertices are isomorphic
+to U5.
+For all n ≥6, the tournament Fn defined in Remark 3 is an indecomposable non critical tournament all the indecomposable subtournaments of
+which are isomorphic to W5. This leads us to the following characterization
+of the tournaments W2n+1 and to the problem below.
+Proposition 3 Given an indecomposable tournament T of cardinality ≥7,
+T is isomorphic to W2n+1 for some n ≥3 if and only if the indecomposable
+subtournaments on 7 vertices of T are isomorphic to W7.
+PROOF. By Lemma 2, if T ≃W2n+1, where n ≥3, then the indecomposable subtournaments of T on 7 vertices are isomorphic to W7. Conversely,
+assume that the indecomposable subtournaments of T on 7 vertices are isomorphic to W7. By Lemma 2, it suffices to show that T is critical. Clearly,
+if | V (T ) |= 7, then T ≃W7. So assume that | V (T ) |≥8. For a contradiction, suppose that T is not critical. It follows from Lemma 3 that
+there exists X ⊂V (T ) such that |X |= 6 and T (X) is indecomposable. By
+Proposition 2, there is Y ⊆V (T ) such that X ⊂Y , | Y |= 8 and T (Y )
+is indecomposable. As | Y | is even, T (Y ) is not critical. Consider x ∈Y
+such that T (Y ) −x is indecomposable. We have T (Y ) −x ≃W7 and hence
+we can denote the elements of Y by 0, . . . , 7 in such a way that x = 7 and
+T (Y ) −7 = W7. By Corollary 1, there is y ∈{0, . . . , 6} such that T (Y ) −y
+is indecomposable and thus T (Y ) −y ≃W7. To obtain a contradiction, we
+verify that {y, 7} would be a non trivial interval of T (Y ). By interchanging
+T and T ⋆, we can assume that y ∈{0, 1, 2} ∪{6} because the permutation
+of Z/7Z, which fixes 6 and which exchanges i and 5 −i for 0 ≤i ≤5, is
+an isomorphism from W7 onto its dual. First, assume that y = 6. We have
+T (Y ) −{6, 7} = 0 < · · · < 5. Since {1, . . ., 5} ∪{7} is not an interval of
+T (Y )−6, 7 −→0. As {i, i+1} is not an interval of T (Y )−6 for 0 ≤i ≤4, we
+obtain successively that 1 −→7, 7 −→2, 3 −→7, 7 −→4 and 5 −→7. Second, assume that y ∈{0, 1, 2}. For z ∈{0, . . ., 7} −{y, 6}, C3 embeds into
+T (Y )−{y, z} because T ({2i, 2i+1, 6}) ≃C3 for i ∈{0, 1, 2}. It follows that
+the isomorphism from W7 onto T (Y )−y fixes 6. Consequently, T (Y )−{y, 6}
+is transitive. We have only to check that T (Y ) −{y, 6} is obtained from
+the usual total order on {0, . . . , 5} by replacing y by 7. If y = 0, then
+If y = 1 or 2, then {y −1, y + 1} is an interval of T (Y ) −{y, 7}. Therefore, {y −1, y + 1} is not an interval of T ({y −1, y + 1, 7}) and hence
+□
+From Corollary 2 and Proposition 3, we obtain the following recognition
+of the critical tournaments from their indecomposable subtournaments on
+7 vertices.
+Corollary 3 Given an indecomposable tournament T , with |V (T )|≥7, T
+is critical if and only if the indecomposable subtournaments on 7 vertices of
+T are isomorphic to one and only one of the tournaments T7, U7 and W7.
+Problem 1 Characterize the indecomposable tournaments all of whose indecomposable subtournaments on 5 vertices are isomorphic to W5.
+References
+[1] H. Belkhechine and I. Boudabbous, Tournois ind ́ecomposables et leurs
+sous-tournois ind ́ecomposables `a 5 sommets, C. R. Acad. Sci. Paris,
+Ser. I 343 (2006) 685-688.
+[2] Y. Boudabbous, J. Dammak and P. Ille, Indecomposability and duality of tournaments, Discrete Math. 223 (2000) 55-82.
+[3] A. Ehrenfeucht and G. Rozenberg, Primitivity is hereditary for
+2-structures, Theoret. Comput. Sci. 3 (70) (1990) 343-358.
+[4] R. Fra ̈ıss ́e, L’intervalle en th ́eorie des relations, ses g ́en ́eralisations,
+filtre intervallaire et clˆoture d’une relation, in: M. Pouzet, D. Richard
+(Eds.), Orders, Description and Roles, North-Holland, Amsterdam,
+1984, pp. 313-342.
+[5] T. Gallai, Transitiv orientierbare Graphen, Acta. Math. Acad. Sci.
+Hungar. 18 (1967) 25-66.
+[6] C. Gnanvo and P. Ille, la reconstruction des tournois sans diamants,
+Z. Math. Logik Grundlag. Math. 38 (1992) 283-291.
+[7] P. Ille, Indecomposable graphs, Discrete Math. 173 (1997) 71-78.
+[8] B.J. Latka, Structure Theorem for tournaments omitting N5, Journal
+of Graph Theory 42 (2003) 165-192.
+[9] G. Lopez and C. Rauzy, Reconstruction of binary relations from their
+restrictions of cardinality 2, 3, 4 and (n-1). I. Z. Logik Grundlag.
+Math. 38 (1992) 27-37.
+[10] J.H. Schmerl and W.T. Trotter, Critically indecomposable partially
+ordered sets, graphs, tournaments and other binary relational structures, Discrete Math. 113 (1993) 191-205.

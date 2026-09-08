@@ -1,0 +1,119 @@
+{
+    "provided_keywords": [],
+    "global_keywords": [
+        {
+            "keyword": "décroissance",
+            "score": 0.2824,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "vie",
+            "score": 0.2372,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "développement durable",
+            "score": 0.2226,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "implique",
+            "score": 0.2223,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "pas",
+            "score": 0.2098,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "concept développement bernard",
+            "score": 0.2077,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "développement bernard conte",
+            "score": 0.2077,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "environnement",
+            "score": 0.2057,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "pensée",
+            "score": 0.1812,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "processus développement",
+            "score": 0.1457,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "développement humain",
+            "score": 0.1334,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "serge latouche",
+            "score": 0.1317,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "croissance économique",
+            "score": 0.1312,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "croissance développement",
+            "score": 0.1306,
+            "method": "tfidf"
+        },
+        {
+            "keyword": "dimension politique développement",
+            "score": 0.1185,
+            "method": "tfidf"
+        }
+    ],
+    "keywords_by_section": {
+        "contexte néolibéral où le respect des grands équilibres macroéconomiques reste la priorité": [
+            {
+                "keyword": "décroissance",
+                "score": 1.0,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "croissance",
+                "score": 0.8843,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "développement durable",
+                "score": 0.8237,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "vie",
+                "score": 0.6436,
+                "method": "tfidf"
+            },
+            {
+                "keyword": "concept développement",
+                "score": 0.5118,
+                "method": "tfidf"
+            }
+        ]
+    },
+    "configuration": {
+        "global_keyword_limit": 15,
+        "keywords_per_section": 5,
+        "ngram_range": [
+            1,
+            3
+        ],
+        "generic_term_filtering": true
+    },
+    "status": "keywords_generated"
+}

@@ -1,0 +1,34 @@
+{
+    "score": 73,
+    "is_valid": false,
+    "word_count": 251,
+    "expected_sections": 12,
+    "filled_sections": 8,
+    "missing_sections": [
+        "problem statement",
+        "objectives",
+        "executive summary maximum 5 lines"
+    ],
+    "unfilled_sections": [
+        "methodology"
+    ],
+    "keyword_coverage": {
+        "total": 0,
+        "present": 0,
+        "ratio": 1.0,
+        "missing": []
+    },
+    "grounding_ratio": 0.101,
+    "checks": {
+        "not_empty": true,
+        "length_ok": true,
+        "structure_ratio": 0.667,
+        "keywords_ok": true,
+        "grounding_ok": false
+    },
+    "alerts": [
+        "Missing required section(s): problem statement, objectives, executive summary maximum 5 lines.",
+        "Required section(s) present but empty: methodology.",
+        "Low source grounding (10%): possible hallucinated content."
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "provided_keywords": [],
+    "global_keywords": [],
+    "keywords_by_section": {},
+    "configuration": {
+        "global_keyword_limit": 15,
+        "keywords_per_section": 5,
+        "ngram_range": [
+            1,
+            3
+        ],
+        "generic_term_filtering": true
+    },
+    "status": "no_keywords_generated"
+}
